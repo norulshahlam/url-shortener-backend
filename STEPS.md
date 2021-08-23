@@ -53,6 +53,14 @@
 
 	mvn clean package	
 
+	docker build . -t url-shortener
+
+`docker for ARM64`
+
+docker buildx build --platform linux/arm64/v8 . -t norulshahlam/url-shortener:0.0.1-SNAPSHOT
+docker buildx build --platform linux/arm/v7,linux/arm64/v8,linux/amd64 . -t norulshahlam/url-shortener:0.0.1-SNAPSHOT
+
+
 `push to docker hub`
 
 	docker push norulshahlam/url-shortener:0.0.1-SNAPSHOT
@@ -80,3 +88,10 @@
 
 	docker run -it -p 3000:3000 --name login-app-frontend norulshahlam/login-app-frontend:latest
 	
+## Docker multi arg
+
+		docker buildx build \ --push \ --platform linux/arm/v7,linux/arm64/v8,linux/amd64 \ --tag norulshahlam/url-shortener:0.0.1-SNAPSHOT .
+
+		 docker buildx build --platform linux/amd64,linux/arm64 .
+
+[https://www.docker.com/blog/multi-arch-build-and-images-the-simple-way/]
