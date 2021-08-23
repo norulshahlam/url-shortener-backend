@@ -71,4 +71,4 @@ Frontend - [https://github.com/norulshahlam/url-shortener-client]
 ## Test App on production
 
 Web server - [http://url-shortener-client2.s3-website-us-east-1.amazonaws.com/]
-Application services - [http://urlshortener-env.eba-cemjhinq.us-east-1.elasticbeanstalk.com/]
+Application server - [http://urlshortener-env.eba-cemjhinq.us-east-1.elasticbeanstalk.com/]
