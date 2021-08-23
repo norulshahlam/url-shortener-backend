@@ -62,3 +62,8 @@ By using REST client (Postman)
 By using frontend
 
   Simply open any browser and run the URL: [http://localhost:3000/]
+
+## Git Repo
+
+Backend - [https://github.com/norulshahlam/url-shortener-backend]
+Frontend - [https://github.com/norulshahlam/url-shortener-client]
