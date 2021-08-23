@@ -19,7 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.shah.urlshortener.request.UrlCreate;
 import com.shah.urlshortener.service.UrlService;
 
-@RestController@CrossOrigin(origins = "http://localhost:3000")
+@RestController
+@CrossOrigin(origins = "*")
 public class UrlRedirect {
 
 	private UrlService urlService;
