@@ -41,7 +41,7 @@
 	desc url;
 	select * from url;
 	
-	
+
 ## DOKCERISE SPRING APP
 
 	add maven plugin for docker in pom
@@ -51,8 +51,7 @@
 
 `create docker`
 
-	mvn clean
-	use maven package
+	mvn clean package	
 
 `push to docker hub`
 
@@ -60,7 +59,7 @@
 
 `run!`
 
-	docker run -d -p 8000:8000 --name url_shortener --link localhost:mysql norulshahlam/url-shortener:0.0.1-SNAPSHOT
+	docker run -d -p 5000:5000 --name url_shortener --link localhost:mysql norulshahlam/url-shortener:0.0.1-SNAPSHOT
 
 ## DOKCERISE REACT APP
 

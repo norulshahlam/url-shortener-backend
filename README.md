@@ -28,13 +28,13 @@ User enters an alias & URL in the field and it will generate URL with the alias 
 
   `Spring App`
 
-  	docker run -d -p 8000:8000 --name url_shortener --link localhost:mysql norulshahlam/url-shortener:0.0.1-SNAPSHOT
+  	docker run -d -p 5000:5000 --name url_shortener --link localhost:mysql norulshahlam/url-shortener:0.0.1-SNAPSHOT
 
   `React App`
 
     docker run -it -p 3000:3000 --name login-app-frontend norulshahlam/url-shortener-frontend:latest
 
-## TEST FULL STACK APP  
+## TEST FULL STACK APP  (localhost)
 
 By using REST client (Postman)
 
@@ -67,3 +67,8 @@ By using frontend
 
 Backend - [https://github.com/norulshahlam/url-shortener-backend]
 Frontend - [https://github.com/norulshahlam/url-shortener-client]
+
+## Test App on production
+
+Website - [http://url-shortener-client2.s3-website-us-east-1.amazonaws.com/]
+Web services - [http://urlshortener-env.eba-cemjhinq.us-east-1.elasticbeanstalk.com/]
