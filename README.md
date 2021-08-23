@@ -6,7 +6,7 @@
 
 `Approach`
 
-User enters an alias in the field and URL and it will generate URL with the alias as the endpoint.
+User enters an alias & URL in the field and it will generate URL with the alias as the endpoint.
 
 `Technologies used`
 
