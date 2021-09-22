@@ -14,6 +14,7 @@ User enters an alias & URL in the field and it will generate URL with the alias 
 - Spring Boot
 - React Js
 - Docker: to run all 3 services
+- AWS Beanstalk, RDS, S3
 
 
 `Database`
